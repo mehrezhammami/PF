@@ -1,0 +1,18 @@
+  
+  #wrapper{
+    display: flex;
+    height: 400px;
+    width: 1110px; 
+  }
+  .proddesc
+  {
+    height: 400px;
+    width: 1110px; 
+    line-height: 3em;
+
+
+  }
+  .prodimg
+  {
+    width: 1250px;
+  }

@@ -1,0 +1,562 @@
+let product=new product({
+    
+//     Name:'TOTEM ZEN',
+//     Hauteur:120,
+//     Largeur:40,
+//     Prix:'80,000',
+//     Reference:'TRACTTM001',
+//     Quantity:4,
+//     SousCategorie: 'TOTEM',
+//     Categorie: 'Accessoires'
+
+// })
+// product.save()
+// .then(data=>console.log(data))
+// .catch(er=>console.log(er))
+
+// //*** ajout */
+// product.create([
+//     // Ajout de categorie Accessoires
+//     {     
+//         Name:'PACK TRIO TOTEM BRIDGE',
+//         Hauteur180,
+//         Largeur:40,
+//         Prix:'45,000' ,
+//         Reference:'TRACTTM029',
+//         Quantity:4,
+//         SousCategorie:'Totem',
+//         Categorie: 'Accessoires'
+//     },
+
+//     {     
+//         Name:'TOTEM FAIROUZ',
+//         Hauteur:102,
+//         Largeur:28,
+//         Prix:'12,000',
+//         Reference:'TRACTTM009',
+//         Quantity:4,
+//         SousCategorie:'Totem',
+//         Categorie: 'Accessoires'
+//     },
+
+//     {     
+//         Name:'VASE UMA 34/H24',
+//         Hauteur:24,
+//         Largeur:34,
+//         Prix:'18,000',
+//         Reference:'TRACVAS001',
+//         Quantity:4,
+//         SousCategorie:'Vase en verre',
+//         Categorie: 'Accessoires'
+//     },
+
+//     {     
+//         Name:'VASE LUNGO',
+//         Hauteur:89,
+//         Largeur:15,
+//         Prix:'24,000',
+//         Reference:'TRACVAS011',
+//         Quantity:4,
+//         SousCategorie:'Vase en verre',
+//         Categorie: 'Accessoires'
+//     },
+
+//     {     
+//         Name:'VASE MARTINI TORSADÉ H60',
+//         Hauteur:60,
+//         Largeur:26,
+//         Prix:'32,000',
+//         Reference:'TRACVAS009',
+//         Quantity:4,
+//         SousCategorie:'Vase en verre',
+//         Categorie: 'Accessoires'
+//     },
+
+//     {     
+//         Name:'PHOTOHPORE AURORE 12/H21',
+//         Hauteur:21,
+//         Largeur:12,
+//         Prix:'6,000',
+//         Reference:'TRACPHB167',
+//         Quantity:4,
+//         SousCategorie:'Photophores',
+//         Categorie: 'Accessoires'
+//     },
+
+//     {     
+//         Name:'PHOTOPHORE PHILIPPE 10/H18',
+//         Hauteur:18,
+//         Largeur:10,
+//         Prix:'6,000',
+//         Reference:'TRACPHB066',
+//         Quantity:4,
+//         SousCategorie:'Photophores',
+//         Categorie: 'Accessoires'
+//     },
+
+//     {     
+//         Name:'PHOTOPHORE ESTELLE 18/H40',
+//         Hauteur:40,
+//         Largeur:18,
+//         Prix:'14,000',
+//         Reference:'TRACPHB066',
+//         Quantity:4,
+//         SousCategorie:'Photophores',
+//         Categorie: 'Accessoires'
+//     },
+
+//     {     
+//         Name:'MACHINE A CAFE NESPRESSO',
+//         Prix:'40,000',
+//         Reference:'TRACC004',
+//         Quantity:4,
+//         SousCategorie:'Accessoires pour stand',
+//         Categorie: 'Accessoires'
+//     },   
+    
+//     {     
+//         Name:'PORTE PROSPECTUS',
+//         Prix:'20,000',
+//         Reference:'TRACTTM026',
+//         Quantity:4,
+//         SousCategorie:'Accessoires pour stand',
+//         Categorie: 'Accessoires'
+//     },
+
+
+
+//     {     
+//         Name:'TRIO LUSTRE BOULE ARGENT',
+//         Prix:'65,000',
+//         Reference:'TRACLSS025',
+//         Quantity:4,
+//         SousCategorie:'Lustres et suspensions',
+//         Categorie: 'Accessoires'
+//     },
+
+//     {     
+//         Name:'LANTERNE ANKARA',
+//         Hauteur:70,
+//         Largeur:30,
+//         Prix:'45,000',
+//         Reference:'TRACLSS019',
+//         Quantity:4,
+//         SousCategorie:'Lustres et suspensions',
+//         Categorie: 'Accessoires'
+//     },
+
+//     {     
+//         Name:'LUSTRE CRISTAL OMBRE',
+//         Hauteur:60,
+//         Largeur:100,
+//         Prix:'95,000',
+//         Reference:'TRACLSS025',
+//         Quantity:4,
+//         SousCategorie:'Lustres et suspensions',
+//         Categorie: 'Accessoires'
+//     },
+
+//     {     
+//         Name:'CHAUFFAGE PYRAMIDE',
+//         Hauteur:227,
+//         Profondeur:37,
+//         Prix:'80,000',
+//         Reference:'TRPMPME059',
+//         Quantity:4,
+//         SousCategorie:'Divers',
+//         Categorie: 'Accessoires'
+//     },
+
+//     {     
+//         Name:'VENTILATEUR BRUMISATEUR',
+//         Prix:'80,000',
+//         Reference:'TRPMPME065',
+//         Quantity:4,
+//         SousCategorie:'Divers',
+//         Categorie: 'Accessoires'
+//     },
+
+//     {     
+//         Name:'CHAFING DISH RECTANGULAIRE',
+//         Hauteur:670,
+//         Largeur:435,
+//         Profondeur:205,
+//         Prix:'65,000',
+//         Reference:'TRPMPME026',
+//         Quantity:4,
+//         SousCategorie:'Divers',
+//         Categorie: 'Accessoires'
+//     },
+
+//     {     
+//         Name:'MILK DISPENSER',
+//         Prix:'45,000',
+//         Reference:'TRPMPME063',
+//         Quantity:4,
+//         SousCategorie:'Divers',
+//         Categorie: 'Accessoires'
+//     },
+
+//     // Ajout de categorie Mobilier
+//     {     
+//         Name:'CHAISE LOUISE',
+//         Hauteur:77,
+//         Largeur:60,
+//         Profondeur:45,
+//         Prix:'18,000',
+//         Reference:'TRMBCHA008',
+//         Quantity:4,
+//         SousCategorie:'Chaises',
+//         Categorie:'Mobilier',
+//     },
+
+//     {     
+//         Name:'CHAISE STARK NOIR',
+//         Hauteur:90,
+//         Largeur:55,
+//         Profondeur:45,
+//         Prix:'9,000',
+//         Reference:'TRMBCHA014',
+//         Quantity:4,
+//         SousCategorie:'Chaises',
+//         Categorie:'Mobilier',
+//     },
+
+//     {     
+//         Name:'CHAISE PORTA VENEZIA VERT',
+//         Hauteur:81,
+//         Largeur:81,
+//         Profondeur:40,
+//         Prix:'15,000',
+//         Reference:'TRMBCHA004',
+//         Quantity:4,
+//         SousCategorie:'Chaises',
+//         Categorie:'Mobilier',
+//     },
+
+//     {     
+//         Name:'FAUTEUIL PASCAL - LOUIS XV',
+//         Hauteur:96,
+//         Largeur:65,
+//         Profondeur:50,
+//         Prix:'38,000',
+//         Reference:'TRMBFAT010',
+//         Quantity:4,
+//         SousCategorie:'Fauteuils',
+//         Categorie:'Mobilier',
+//     },
+
+
+//     {     
+//         Name:'FAUTEUIL VIP',
+//         Hauteur:75,
+//         Largeur:45,
+//         Profondeur:75,
+//         Prix:'29,000',
+//         Reference:'TRMBFAT013',
+//         Quantity:4,
+//         SousCategorie:'Fauteuils',
+//         Categorie:'Mobilier',
+//     },
+
+//     {     
+//         Name:'FAUTEUIL COSY BLEU',
+//         Hauteur:83,
+//         Largeur:51,
+//         Profondeur:46,
+//         Prix:'18,000',
+//         Reference:'TRMBFAT002',
+//         Quantity:4,
+//         SousCategorie:'Fauteuils',
+//         Categorie:'Mobilier',
+//     },
+
+//     {     
+//         Name:'POUF SABA',
+//         Hauteur:45,
+//         Largeur:45,
+//         Profondeur:45,
+//         Prix:'10,000',
+//         Reference:'TRMBPOF006',
+//         Quantity:4,
+//         SousCategorie:'Poufs',
+//         Categorie:'Mobilier',
+//     },
+
+//     {     
+//         Name:'POUF SLIDE',
+//         Hauteur:40,
+//         Largeur:96,
+//         Profondeur:40,
+//         Prix:'5,000',
+//         Reference:'TRMBPOF007',
+//         Quantity:4,
+//         SousCategorie:'Poufs',
+//         Categorie:'Mobilier',
+//     },
+
+//     {     
+//         Name:'POUF WALLY',
+//         Hauteur:50,
+//         Largeur:55,
+//         Profondeur:55,
+//         Prix:'12,000',
+//         Reference:'TRMBPOF001',
+//         Quantity:4,
+//         SousCategorie:'Poufs',
+//         Categorie:'Mobilier',
+//     },
+
+//     {     
+//         Name:'BANQUETTE ROMA',
+//         Hauteur:65,
+//         Largeur:140,
+//         Profondeur:50,
+//         Prix:'35,000',
+//         Reference:'TRMBCNP009',
+//         Quantity:4,
+//         SousCategorie:'Canapés',
+//         Categorie:'Mobilier',
+//     },
+
+//     {     
+//         Name:'MÈRIDIENNE MERIEM',
+//         Hauteur:90,
+//         Largeur:210,
+//         Profondeur:77,
+//         Prix:'120,000',
+//         Reference:'TRMBCNP015',
+//         Quantity:4,
+//         SousCategorie:'Canapés',
+//         Categorie:'Mobilier',
+//     },
+
+//     {     
+//         Name:'MERIDIENNE SONIA',
+//         Hauteur:80,
+//         Largeur:160,
+//         Profondeur:80,
+//         Prix:'120,000',
+//         Reference:'TRMBCNP010',
+//         Quantity:4,
+//         SousCategorie:'Canapés',
+//         Categorie:'Mobilier',
+//     },
+
+//     {     
+//         Name:'TABLE EN BOIS MASSIF CHÊNE',
+//         Hauteur:78,
+//         Largeur:156,
+//         Profondeur:86,
+//         Prix:'150,000',
+//         Reference:'TRMBTAB005',
+//         Quantity:4,
+//         SousCategorie:'Tables',
+//         Categorie:'Mobilier',
+//     },
+
+//     {     
+//         Name:'TABLE OR',
+//         Hauteur:76,
+//         Profondeur:150,
+//         Prix:'150,000',
+//         Reference:'TRMBTAB008',
+//         Quantity:4,
+//         SousCategorie:'Tables',
+//         Categorie:'Mobilier',
+//     },
+
+//     {     
+//         Name:'TABLE SPIDER',
+//         Hauteur:70,
+//         Largeur:160,
+//         Profondeur:75,
+//         Prix:'38,000',
+//         Reference:'TRMBTAB008',
+//         Quantity:4,
+//         SousCategorie:'Tables',
+//         Categorie:'Mobilier',
+//     },
+
+//     {     
+//         Name:'BAR MINUTY',
+//         Hauteur:98,
+//         Largeur:208,
+//         Profondeur:90,
+//         Prix:'250,000',
+//         Reference:'TRMBBBF019',
+//         Quantity:4,
+//         SousCategorie:'Bars et buffets',
+//         Categorie:'Mobilier',
+//     },
+
+//     {     
+//         Name:'BUFFET MINUTY GM',
+//         Hauteur:90,
+//         Profondeur:70,
+//         Prix:'65,000',
+//         Reference:'TRMBBBF020',
+//         Quantity:4,
+//         SousCategorie:'Bars et buffets',
+//         Categorie:'Mobilier',
+//     },
+
+//     {     
+//         Name:'BUFFET A COLONNE',
+//         Hauteur:90,
+//         Largeur:220,
+//         Profondeur:80,
+//         Prix:'60,000',
+//         Reference:'TRMBBBF019',
+//         Quantity:4,
+//         SousCategorie:'Bars et buffets',
+//         Categorie:'Mobilier',
+//     },
+
+//     {     
+//         Name:'PAGODE 5x5',
+//         Hauteur:500,
+//         Largeur:500,
+//         Prix:'450,000',
+//         Reference:'TRSATNT003',
+//         Quantity:4,
+//         SousCategorie:'tentes-chapiteaux',
+//         Categorie:'tentes-abris',
+//     },
+
+//     {     
+//         Name:'PARASOL 4X4',
+//         Hauteur:300,
+//         Largeur:300,
+//         Prix:'45,000',
+//         Reference:'TRSATNT004',
+//         Quantity:4,
+//         SousCategorie:'abris-parasols',
+//         Categorie:'tentes-abris',
+//     },
+
+//     {     
+//         Name:'PAGODE 5x5',
+//         Hauteur:500,
+//         Largeur:500,
+//         Prix:'450,000',
+//         Reference:'TRSATNT004',
+//         Quantity:4,
+//         SousCategorie:'abris-parasols',
+//         Categorie:'tentes-abris',
+//     },
+
+//     {     
+//         Name:'ABRIS PLIANT',
+//         Hauteur:400,
+//         Largeur:400,
+//         Prix:'100,000',
+//         Reference:'TRSATNT003',
+//         Quantity:4,
+//         SousCategorie:'abris-parasols',
+//         Categorie:'tentes-abris',
+//     },
+
+//     {     
+//         Name:'IGLOO',
+//         Hauteur:270,
+//         Largeur:330,
+//         Profondeur:300,
+//         Prix:'98,000',
+//         Reference:'TRSATNT005',
+//         Quantity:4,
+//         SousCategorie:'tentes-gonflables',
+//         Categorie:'tentes-abris',
+//     },
+
+//     {     
+//         Name:'KITE 400',
+//         Hauteur:400,
+//         Profondeur:400,
+//         Prix:'350,000',
+//         Reference:'TRSATNT005',
+//         Quantity:4,
+//         SousCategorie:'tentes-gonflables',
+//         Categorie:'tentes-abris',
+//     },
+
+//     {     
+//         Name:'THE CUBE',
+//         Hauteur:1500,
+//         Largeur:2500,
+//         Prix:'6 500,000',
+//         Reference:'TRSATNT007',
+//         Quantity:4,
+//         SousCategorie:'tentes-gonflables',
+//         Categorie:'tentes-abris',
+//     },
+
+//     {     
+//         Name:'PARAVENT MOUCHARABIER',
+//         Hauteur:235,
+//         Largeur:152,
+//         Prix:'120,000',
+//         Reference:'TRCLPRV003',
+//         Quantity:4,
+//         SousCategorie:'paravents',
+//         Categorie:'cloisons',
+//     },
+
+//     {     
+//         Name:'PARAVENT MEDINA',
+//         Hauteur:250,
+//         Largeur:185,
+//         Prix:'80,000',
+//         Reference:'TRCLPRV001',
+//         Quantity:4,
+//         SousCategorie:'paravents',
+//         Categorie:'cloisons',
+//     },
+
+//     {     
+//         Name:'PARAVENT SPIDER',
+//         Hauteur:146,
+//         Largeur:100,
+//         Prix:'55,000',
+//         Reference:'TRCLPRV005',
+//         Quantity:4,
+//         SousCategorie:'paravents',
+//         Categorie:'cloisons',
+//     },
+
+//     {     
+//         Name:'STRUCTURE TRIDENT',
+//         Hauteur:340,
+//         Largeur:73,
+//         Prix:'74,000',
+//         Reference:'TRCLPRV008',
+//         Quantity:4,
+//         SousCategorie:'structures-auto-portees',
+//         Categorie:'cloisons',
+//     },
+
+//     {     
+//         Name:'ARCHE LYCRA',
+//         Hauteur:400,
+//         Largeur:196,
+//         Prix:'120,000',
+//         Reference:'TRCLPRV011',
+//         Quantity:4,
+//         SousCategorie:'structures-auto-portees',
+//         Categorie:'cloisons',
+//     },
+
+//     {     
+//         Name:'TUNNEL LYCRA',
+//         Hauteur:214,
+//         Largeur:200,
+//         Prix:'90,000',
+//         Reference:'TRCLPRV008',
+//         Quantity:4,
+//         SousCategorie:'structures-auto-portees',
+//         Categorie:'cloisons',
+//     },
+
+    
+
+// ])
